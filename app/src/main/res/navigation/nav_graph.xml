@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/signInFragment"
-        android:name="com.example.dispatch.presentation.signIn.view.SignInFragment"
+        android:name="com.abinar.apps.android.driver.presentation.signIn.view.SignInFragment"
         android:label="fragment_sign_in"
         tools:layout="@layout/fragment_sign_in">
         <action
@@ -22,17 +22,17 @@
     </fragment>
     <fragment
         android:id="@+id/signUpFragment"
-        android:name="com.example.dispatch.presentation.signUp.view.SignUpFragment"
+        android:name="com.abinar.apps.android.driver.presentation.signUp.view.SignUpFragment"
         android:label="fragment_sign_up"
         tools:layout="@layout/fragment_sign_up" />
     <fragment
         android:id="@+id/restorePasswordFragment"
-        android:name="com.example.dispatch.presentation.restorePassword.view.RestorePasswordFragment"
+        android:name="com.abinar.apps.android.driver.presentation.restorePassword.view.RestorePasswordFragment"
         android:label="fragment_restore_password"
         tools:layout="@layout/fragment_restore_password" />
     <fragment
         android:id="@+id/currentUserProfileFragment"
-        android:name="com.example.dispatch.presentation.currentUserProfile.view.CurrentUserProfileFragment"
+        android:name="com.abinar.apps.android.driver.presentation.currentUserProfile.view.CurrentUserProfileFragment"
         android:label="fragment_current_user_profile"
         tools:layout="@layout/fragment_current_user_profile">
         <action
@@ -43,7 +43,7 @@
     </fragment>
     <fragment
         android:id="@+id/latestMessagesFragment"
-        android:name="com.example.dispatch.presentation.latestMessages.view.LatestMessagesFragment"
+        android:name="com.abinar.apps.android.driver.presentation.latestMessages.view.LatestMessagesFragment"
         android:label="fragment_latest_messages"
         tools:layout="@layout/fragment_latest_messages">
         <action
@@ -55,7 +55,7 @@
     </fragment>
     <fragment
         android:id="@+id/listUsersFragment"
-        android:name="com.example.dispatch.presentation.listUsers.view.ListUsersFragment"
+        android:name="com.abinar.apps.android.driver.presentation.listUsers.view.ListUsersFragment"
         android:label="fragment_list_users"
         tools:layout="@layout/fragment_list_users">
         <action
@@ -66,7 +66,7 @@
     </fragment>
     <fragment
         android:id="@+id/splashScreenFragment"
-        android:name="com.example.dispatch.presentation.splash.view.SplashScreenFragment"
+        android:name="com.abinar.apps.android.driver.presentation.splash.view.SplashScreenFragment"
         android:label="fragment_splash_screen"
         tools:layout="@layout/fragment_splash_screen">
         <action
@@ -80,7 +80,7 @@
     </fragment>
     <fragment
         android:id="@+id/detailsMessagesFragment"
-        android:name="com.example.dispatch.presentation.detailsMessages.view.DetailsMessagesFragment"
+        android:name="com.abinar.apps.android.driver.presentation.detailsMessages.view.DetailsMessagesFragment"
         android:label="fragment_details_messages"
         tools:layout="@layout/fragment_details_messages" />
 </navigation>

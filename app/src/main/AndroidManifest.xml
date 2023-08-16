@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.dispatch">
+    package="com.abinar.apps.android.driver">
 
     <application
-        android:name=".app.App"
+        android:name="com.abinar.apps.android.driver.app.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -12,7 +12,7 @@
         android:theme="@style/Theme.Dispatch">
 
         <activity
-            android:name=".presentation.MainActivity"
+            android:name="com.abinar.apps.android.driver.presentation.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
